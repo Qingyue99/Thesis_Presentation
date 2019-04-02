@@ -18,7 +18,7 @@ var myStyle = {
 };
 
  // create custom icon
- var foodIcon = L.icon({
+ var foodIconcollege = L.icon({
   iconUrl: "assets/icons/foodinpublic.svg",
   iconSize: [25, 45], // size of the icon
   popupAnchor: [0,-15],
@@ -29,6 +29,9 @@ var myStyle = {
   var customPopup1 = "Back Bay<br/><img src='http://joshuafrazier.info/images/maptime.gif' alt='maptime logo gif' width='1200px'/>";
   
   var customPopup2 = "Allston<br/><img src='http://joshuafrazier.info/images/maptime.gif' alt='maptime logo gif' width='1200px'/>";
+  var customPopup3 = "Boston College<br/><img src='http://joshuafrazier.info/images/maptime.gif' alt='maptime logo gif' width='1200px'/>";
+  var customPopup4 = "Boston University<br/><img src='http://joshuafrazier.info/images/maptime.gif' alt='maptime logo gif' width='1200px'/>";
+  var customPopup5 = "Northeastern Univerisy<br/><img src='http://joshuafrazier.info/images/maptime.gif' alt='maptime logo gif' width='1200px'/>";
   // specify popup options 
   var customOptions =
       {
@@ -37,9 +40,12 @@ var myStyle = {
       }
   
   // create marker object, pass custom icon as option, pass content and options to popup, add to map
-  L.marker([42.349877, -71.078067], {icon: foodIcon}).bindPopup(customPopup1,customOptions).addTo(map);
-  L.marker([42.351144, -71.131478], {icon: foodIcon}).bindPopup(customPopup2,customOptions).addTo(map);
-  L.marker([42.341057, -71.087680], {icon: foodIcon}).addTo(map).bindPopup("NEU");
+  L.marker([42.349877, -71.078067], {icon: foodIconcollege}).bindPopup(customPopup1,customOptions).addTo(map);
+  L.marker([42.351144, -71.131478], {icon: foodIconcollege}).bindPopup(customPopup2,customOptions).addTo(map);
+  L.marker([42.335541, -71.168795], {icon: foodIconcollege}).bindPopup(customPopup3,customOptions).addTo(map);
+  L.marker([42.350397, -71.105292], {icon: foodIconcollege}).bindPopup(customPopup4,customOptions).addTo(map);
+ 
+  L.marker([42.341057, -71.087680], {icon: foodIconcollege}).addTo(map).bindPopup(customPopup,customOptions).addTo(map);
 
 
 
