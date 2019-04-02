@@ -1,49 +1,1193 @@
 <!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<html lang="en">
 
-		<title>reveal.js</title>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no">
+   
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+    <!-- js -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+<body>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+<header>            
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- <div class="min-vh-100 container pt4 pb5 flex flex-column justify-between mb5-ns"> -->
+            <header class="header-desktop"></header>
+            <header class="header">
+              <nav class="nav">
+                <ul class="nav-list flex flex-wrap justify-center bold">
+                  <li class="flex justify-center mb3 mb4-ns logo-container">
+                    <a href="index.html">
+           </a>
+        </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Overview">Introduction</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Bigpicture">Bigpictures</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Zoom into neighborhoods">Zoom into neighborhoods</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Insights">User Scenario/Insights</a>
+            </li>
+        </ul>
+</nav>
+    </header> 
 
-		<script src="js/reveal.js"></script>
+</header>  
+<section id="intro">
+<div class="intro-overlay"></div>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+<div class="intro-content">
+    <div class="container">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <div class="container">
+            <h1 class="explain">Lifestyle Geography Of Food Environments</h1>
+                <h2 class="section-title1">Boston as a Case Study </h2>
+                <p class="text-center short-desc">By Qingyue Li</p>
+           
+            </div>
+        </div>
+        </div>
+    </div>
+</div> 
+</section> 
+
+
+
+
+
+
+    <!-- section2 -->
+    <div class="container">
+    <div class="row" id="Overview">
+        <div class="col-md-2">
+        </div>
+                <div class="col-md-8">
+            <div class="section-title-wrapper section-space--half">  
+                    <h2 class="section-title">Lifestyle in Urban Scenario</h2>
+                    
+                    <p class="text-left short-desc">
+                            There are many ways to <strong> interpret the urban lifestyle from public spaces</strong>
+
+                        </p>
+                        <p class="text-left short-desc" style="color:#414141";>
+                                In my thesis, I focus on <strong> how to see lifestyle through the lens of the food environment</strong>
+                            </p>
+                        
+                </div>
+            </div>
+            <div class="col-md-2">
+                </div>
+        </div>
+    </div>
+
+    <br> 
+  
+    <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6">
+                <div class="smallimage">
+                <img class="img-responsive" src="assets/people with food-01.png" >
+                </div>
+        </div>
+        <div class="col-md-3">
+        </div>
+    </div>
+
+</div>
+
+
+<hr width="50%">
+
+<div class="container">
+        <div class="row">
+                <div class="col-md-2">
+                </div>
+                        <div class="col-md-8">
+                    <div class="section-title-wrapper section-space--half">  
+                            <h2 class="section-title">Why Food environment is a good lens to see Urban Lifestyle?
+                                </h2>
+                            
+                            <p class="text-left short-desc">
+                                    Maslow's basic human needs theory gave me a lot of inspiration. 
+                                    Food and the food-related environment covered all three major stages of his model,  from basic psychological needs to self-fulfillment needs.
+                                </p>
+                            </div>
+                        </div>
+                <div class="col-md-2">
+                 </div>
+         </div>
+         <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                        <div class="smallimage">
+                        <img class="img-responsive" src="assets/Need ModelNew-01.png" >
+                        </div>
+                </div>
+                <div class="col-md-1"></div>
+                
+            </div>       
+        </div>
+
+
+        <hr width="50%">
+
+
+
+<div class="container">
+<div class="row">
+        <div class="col-md-2">
+    </div>
+         <div class="col-md-8">
+            <div class="section-title-wrapper section-space--half">  
+                    <h2 class="section-title">Back Bay as a Food Microscale Environment in Boston</h2>
+                    
+                    <p class="text-left short-desc">
+                           Prudential Center surrounding serves as a microcoscale of the public space that meets different group people's need at different times of the day.
+                        </p>
+                    </div>
+                </div>
+        <div class="col-md-2">
+         </div>
+ </div>
+ <div class="row">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-10">
+                <div class="smallimage">
+                <img class="img-responsive" src="assets/prudential2-01.png" >
+                </div>
+        </div>
+        <div class="col-md-1">
+        </div>
+    </div>
+
+</div>
+
+<hr width="50%">
+
+<div class="container">
+  <div class="row" id="Introduction">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+                <div class="section-title-wrapper section-space--half">  
+                        <h2 class="section-title">Zoom Back to Food Environments in Boston</h2>
+                            <p class="text-left short-desc">
+
+                                    Through daily observation in Boston, I document the scenes of how people interact with food-related environments, like restaurants, supermarkets and eating in public spaces, from typical weekday to weekends. 
+                                    Observation is also how this project began.
+                                </p>
+                                    <br>
+                             <p class="text-left short-desc">    
+                                To understand the fundamental question of the thesis, how public space looks like through the lens of food, I start with mapping at the pedestrian scale in Boston. 
+                                I use the environmental audit as a research method to document and categorize the typical food-related scenes in different locations. 
+                                For example, in Back Bay, noon is peak hour for workers to take a lunch break. Allston, at 7 pm on weekends, is popular for places to try Korean food.
+                            </p>
+                            <h2>Please click on location icons to explore more :)</h2>
+                </div>
+        </div>
+        <div class="col-md-2">
+        </div>
+    
+  </div>
+</div>
+
+<!-- MAP -->
+<div class="container fullwidth">
+
+<div class="row-fluid">
+        <div class="col-md-12">
+        <div id="map"></div>
+    </div>
+</div>  
+
+</div>
+
+
+
+
+<div class="container">     
+        <div class="row" id="Introduction">
+                <div class="col-md-2">
+                    </div>                
+                <div class="col-md-8">
+                    <div class="section-title-wrapper text-center section-space--half">  
+                                <h2 class="section-title">Define Lifestyle Geography 
+                              </h2>
+
+                                <p class="text-left short-desc">
+                                        
+                                    In this thesis, I define the term of <strong> Lifestyle Geography.</strong>
+                                </p>
+
+                                <p class="text-left short-desc" style="color:#414141";>
+                                  There are four factors make up the lifestyle geography, including yours relationship status, where you live, where you work and age.
+                                When the combination of these 4 factors change, your lifestyle geography also changes.
+
+                                    </p>
+
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+            <div class="smallimage">
+            <img class="img-responsive" src="assets/lifestyle geography.png" >
+             </div>
+             </div>
+            <div class="col-md-1">
+             </div>
+         </div>
+       
+         <hr width="50%">
+
+       <h2 class="section-title">Exploring Food Amenities In Relation To Public Transportation</h2>
+
+                    
+             <p class="text-left short-desc">
+                                     A new primary question then began with: There is a relationship between what people do and what they want, and is that the same thing with food?
+                                     I categorize food amenities into two types based on people’s needs: <mark>places to eat in public spaces</mark> and <mark>places to buy unprepared foods.</mark> Places to eat in public spaces includes three subcategories, food as social, food with entertainment and places to buy unprepared foods.
+                                    <br>
+             </p>
+                                <br>
+                       
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    </div>
+        </div>
+</div>
+
+
+
+
+
+
+
+<!-- section 3.5 -->
+
+<div class="container">     
+        <div class="row" id="Introduction">
+                <div class="col-md-2">
+                    </div>                
+                <div class="col-md-8">
+                    <div class="section-title-wrapper text-center section-space--half">  
+                                <h2 class="section-title">Data On a Human Scale:<br>
+                                    Research and Analysis Strategies</h2>
+
+                                    <p class="text-left short-desc">
+                                        When I was thinking the fundamental question of this project, how to see lifestyle through the lens of the food environment. 
+                                        I realized that determining how people’s daily behavior is associated with food environment was the key to answer the question. 
+                                        In data levels, reading our daily food-related behaviors can mainly be separated into two parts, including “purchase” and “dine in”. 
+                                        Purchase refers to the accessibility to places where one can buy food to prepare or directly eat. Dine in refers to the accessibility to find places to have a meal. 
+                                    </p>
+
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+            <div class="smallimage">
+            <img class="img-responsive" src="assets/food behaviorus_new.png" >
+             </div>
+             </div>
+            <div class="col-md-1">
+             </div>
+         </div>
+                                    
+
+       <h2 class="section-title">Exploring Food Amenities In Relation To Public Transportation</h2>
+
+                    
+             <p class="text-left short-desc">
+                                     A new primary question then began with: There is a relationship between what people do and what they want, and is that the same thing with food?
+                                     I categorize food amenities into two types based on people’s needs: <mark>places to eat in public spaces</mark> and <mark>places to buy unprepared foods.</mark> Places to eat in public spaces includes three subcategories, food as social, food with entertainment and places to buy unprepared foods.
+                                    <br>
+             </p>
+                                <br>
+                       
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    </div>
+        </div>
+</div>
+
+            
+<!-- <section 3 part 2"> -->
+        <div class="container">
+                <div class="row">
+
+                <div class="col-md-2">
+                </div>
+                    
+            
+                <div class="col-md-4">
+                      <div class="rectangle">
+                        <div class="content">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <h2>Places to Eat in Public Spcaces</h2>
+                                        <p> 
+                                                <i class="fa fa-circle" style="color:#c4907e;"></i>
+                                            <span style="color:#414141; font-weight: bold;">Food mainly for social</span>  
+                                        </p>
+                                        <ul>
+                                            <li>For example: Restaurant</li>
+                                            <br>
+                                            <li>Cafe</li>
+                                            <br>
+                                            <li>Bar</li>
+                                        </ul>
+                                            <p>
+                                                    <i class="fa fa-circle" style="color:#414141;"></i>
+                                                <span style="color:#414141; font-weight: bold;">Food with entertainment</span>
+                                            </p>
+                                            <ul> 
+                                            <li>Movie-theater</li>
+                                            <br>
+                                            <li>Shopping mall</li>
+                                        </ul>
+                                            <p><span style="color:#414141; font-weight: bold;">Bring your own</span></p>
+                                            <ul>
+                                            <li>Park</li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>   
+                         </div>
+                    </div>
+            
+                    
+            
+                    <div class="col-md-4">
+                         <div class="rectangle2">
+                                    <div class="content">
+                                        <div class="table">
+                                            <div class="table-cell"> 
+                                                    <h2><i class="fa fa-circle" style="color:#3e53a4;"></i>
+                                                        Places to Buy Unprepared Foods
+                                                       
+                                                    </h2>              
+                                                    <ul>
+                                                            <li>Grocery stores</li>
+                                                            <br>
+                                                            <li>Convenience-store</li>
+    
+                                                            <br>
+                                                            <li>Pharmacy</li>
+                                                            <br>
+                                                            <li>Liquor Store</li>
+                                                        </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                    
+                    </div>
+            
+                    
+                    <div class="col-md-2">
+                    </div>
+            
+             </div>
+
+
+
+     <div class="row" >
+        <div class="col-md-2">
+        </div>                
+        <div class="col-md-8">
+             <div class="section-title-wrapper text-center section-space--half">  
+                 <p class="text-left short-desc">
+                    Boston is one of the city in United States has a  a relatively well-developed public transportation system, especially for subway. 
+                    Thus, I used the MBTA as an example to study the relationship between public transportation and the food environment.
+                    The following maps shows MBTA subway stations in relation to the amounts of food amenities nearby. 
+                </p>
+            </div>
+        </div>
+        <div class="col-md-2">
+            </div> 
+        
+    </div> 
+            </div>
+            <!-- end  -->
+
+
+
+
+       
+
+<!-- section 3 -->
+<div class="full-testimonial-wrapper testimonial-bg">
+<div class="container"> 
+
+
+            <div class="row" id="Introduction">
+                    <div class="col-md-2">
+                        </div>                
+                    <div class="col-md-8">
+                        <div class="section-title-wrapper text-center section-space--half">  
+                                    <p class="text-left short-desc">
+                                        <mark>The buffer zone </mark>- here referring to surrounding an MBTA station - is based on an adult with the average walking speed for a five-minute walk, about ¼ of a mile or about 400 meters. 
+                                        The reason for choosing 5 min as a dimension is because The Five-Minute Walk is a standard general use measure as the average distance that a pedestrian is willing to walk before opting to drive in urban planning.
+                                    </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+            </div>
+
+            <div class="row">
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-4">
+                            <div class="smallimage">
+                            <img class="img-responsive" src="assets/0.25miles.png" >
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                </div>
+
+
+
+
+
+<div class="row" id="Introduction">
+        <div class="col-md-2">
+            </div>                
+        <div class="col-md-8">
+            <div class="section-title-wrapper text-center section-space--half">  
+                        <h2 class="section-title">Mapping of Subway Station and Places Suitable for Food as Social</h2>
+            </div>
+        </div>
+        <div class="col-md-2">
+            </div> 
+</div>
+        
+<!-- <div class="cursor"></div> -->
+
+<div class="row">
+        <div class="col-md-12">     
+                <img class="img-responsive" src="assets/Food as social to MBTA.png" >
+        </div>
+</div>
+
+<div class="row">
+        <div class="col-md-12">     
+                <img class="img-responsive" src="assets/Food as entertainment to MBTA .png" >
+        </div>
+</div>
+
+
+<div class="row">
+        <div class="col-md-12">     
+                <img class="img-responsive" src="assets/Places to Buy Unprepared Foods.png" >
+        </div>
+</div>
+
+
+<div class="row" id="Introduction">
+        <div class="col-md-2">
+            </div>                
+        <div class="col-md-8">
+            <div class="section-title-wrapper text-center section-space--half">  
+                        <h2 class="section-title">Which public spaces are suitable for outdoor dining?</h2>
+            </div>
+        </div>
+        <div class="col-md-2">
+            </div> 
+</div>
+
+
+<div class="container">   
+<div class="row">
+        <div class="col-md-12">     
+                <img class="img-responsive" src="assets/open space_MBTA_updated.png" >
+        </div>
+</div>
+
+<div class="row" id="Introduction">
+        <div class="col-md-2">
+            </div>                
+        <div class="col-md-8">
+            <div class="section-title-wrapper text-center section-space--half">  
+                        <p class="text-left short-desc">
+                        Based on Open Space Dataset from Analyze Boston, Boston currently has 1,012 open spaces, which mainly include six types<br>
+                        1. Cemeteries & Burying Grounds<br>
+                        2. Community Gardens <br>
+                        3. Malls, Squares & Plazas <br>
+                        4. Parks, Playgrounds & Athletic Fields <br>
+                        5. Urban Wilds & Natural Areas<br>
+                        6.Parkways, Reservations & Beaches. <br>
+
+                                <br>
+                                I filter out the places potentially suitable for outdoor eating, including 1. Malls, Squares & Plazas 2. Parks, Playgrounds & Athletic Fields. 3. Urban Wilds & Natural Areas
+                                <br>
+                                <span style="color:#414141; font-weight: bold;">
+                                In Boston, 69.6 % of outdoor spaces are suitable for outdoor dining according to this metrics. </span>
+                                
+                                <br>
+                                <span style="color:#414141; font-weight: bold;">
+                                        N percent of them are within 0.25 miles walking distance of the MBTA.
+                                        </span>
+                                
+                        </p>
+            </div>
+        </div>
+        <div class="col-md-2">
+        </div>
+</div>
+</div>
+
+
+
+
+
+<div class="container">     
+        <div class="row" id="Introduction">
+                <div class="col-md-2">
+                    </div>                
+                <div class="col-md-8">
+                    <div class="section-title-wrapper text-center section-space--half">  
+                                <p class="text-left short-desc">
+                                    Since the large-scale map shows the broader picture, but it is hard to explore the deeper layers of information, I here zoom into the small communities.
+                                    I choose 6 most popular neighborhoods, according a survey I conducted for this project. 
+                                    <br>
+                                    The number under each subway station in the following drawing represents the amount of food amenities within walking distance. 
+                                </p>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                </div>
+        </div>
+
+</div>
+
+
+<div class="row" id="Zoom into Neighborhoods">
+        <div class="col-md-12">     
+                <img class="img-responsive" src="assets/Brighton-6_food_amenties_final.png" >
+        </div>
+</div>
+
+<br>
+
+<div class="row" id="Introduction">               
+        <div class="col-md-12">
+            <div class="section-title-wrapper text-center section-space--half">  
+                        <p class="text-left short-descfindingblack">
+                            Boston has 145 stations. N stations are located within the 6 most popular neighborhoods. <br>
+                            Brighton has 6 subway stations within its boundary. I draw a buffer zone based on each center of the station location in order to see how many food amenities people can access near each subway station. 
+                            In Brighton, <mark>Warren Street</mark> is the most accessible station to food amenities, while Boston College is the least accessible station to food amenities.    
+                        </p>
+            </div>
+        </div>
+</div>
+
+
+
+
+<div class="row">
+        <div class="col-md-12">     
+                <img class="img-responsive" src="assets/Backbay5_food_amenties-01.png" >
+        </div>
+</div>
+
+<div class="row" id="Introduction">               
+        <div class="col-md-12">
+            <div class="section-title-wrapper text-center section-space--half">  
+                        <p class="text-left short-descfindingblack">
+                        Back Bay has five subway stations within its boundary. 
+                        All the stations in Baybay are highly accessible to surrounding food amnesties. 
+                        Back Bay is a food hub in Boston perhaps because of its average high income and it being a popular destination for tourists and shoppers.    
+                        </p>
+            </div>
+        </div>
+</div>
+
+
+
+<div class="row">
+        <div class="col-md-12">     
+                <img class="img-responsive" src="assets/Fenway10-01.png" >
+        </div>
+</div>
+
+<div class="row" id="Introduction">               
+        <div class="col-md-12">
+            <div class="section-title-wrapper text-center section-space--half">  
+                        <p class="text-left short-descfindingblack">
+                             Fenway has ten subway stations within its boundary. 
+                             <mark>Symphony station’s surrounding area</mark> attracts large student groups to eat since it is located in between Northeastern University and Berklee University. 
+                             It also attracts people who come for music performances to eat nearby the Symphony Hall. 
+                             These two factors likely cause this station to have higher food amenities accessibility compared to the other stations.
+                                
+                        </p>
+            </div>
+        </div>
+</div>
+
+
+</div>
+</div>
+
+
+
+<br>
+
+
+<div class="container">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <div class="section-title-wrapper section-space--half">  
+                        <h2 class="section-title">Central Boston VS Outer Boston: Quantity</h2>
+                        
+                        <p class="text-left short-desc">
+                                I categorize neighborhoods into central neighborhoods and outer neighborhoods based on their geolocation in Boston. 
+                                <mark>Central neighborhoods</mark> refer to those neighborhoods located in the heart of the city, including Back Bay, Fenway-Kenmore, Beacon Hill, South Boston, South End, North End, Charlestown, Chinatown-Leather District, Downtown, West End and Bay Village. 
+                                <mark>Outer neighborhoods</mark> refer to those neighborhoods located surrounding the center of the city, 
+                                including Mission Hill, Allston, Brighton, East Boston, Dorchester, Jamaica Plain, Roxbury, West Roxbury, Hyde Park, Roslindale, Mattapan and Mid-Dorchester.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    </div>
+            </div>
+</div>
+    
+
+
+<div class="container">
+    <div class="myclass">
+            <div class="row">
+                <div class="col-md-12">
+            <img class="img-responsive" src="assets/center _food.png">
+            
+                </div>
+            </div>
+
+            <div class="myclass">
+            <div class="row" id="Introduction">               
+                    <div class="col-md-12">
+                        <div class="section-title-wrapper text-center section-space--half">  
+                                    <p class="text-left short-descfindingblack">
+                                            This diagram explores the relationship between <mark>food-related amenities accessibility and central/outer neighborhoods condition.</mark> 
+                                            <br>
+                                            Central Boston consists of 15.3% of the total area of Boston but has N% of overall food amenities. 
+                                            The average density of food amenities in central Boston is M per square feet.
+
+                                            Outer Boston consists of 84.7% of the total area of Boston, has A% of overall food amenities. The average density of food amenities in outer Boston is F per square feet.   
+                                    </p>
+
+                                    <p class="text-left short-descfindingblack">
+                                            From the diagram, we can also observe in central Boston; people have more access to restaurants, café, bar these types of food places particularly suitable for social through foods. 
+                                            <br>
+                                            In outer Boston, people more access to places to buy unprepared foods as well as places good for combine food and entertainment, like movie theaters and shopping malls.
+
+                                    </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+
+
+
+ <!-- zoom in -->
+
+ <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+                    <div class="col-md-8">
+                <div class="section-title-wrapper section-space--half">  
+                        <h2 class="section-title">Working Neighborhoods vs. Living Neighborhoods: Food Amenities Distribution</h2>
+
+                        <p class="text-left short-desc">
+                            I surveyed 208 participants to understand how people eat in Boston. 
+                            As part of the survey, I asked people which neighborhood they work and which neighborhood they live. 
+                        </p>
+
+                        <br>
+                        
+                        <p class="text-left short-desc">
+                                <strong>Working Neighborhoods and Living Neighborhoods </strong>
+                                <br>
+                                Of the 208 participants who live in the Greater Boston area, most Boston residents are in <mark>Back Bay, Mission Hill, and Brighton. </mark>
+                                However, people still spend most of their daytime hours for work or school in <mark>Back Bay, Downtown and Fenway-Kenmore.</mark>
+                        </p>
+
+                        <p class="text-left short-desc">
+                            In a typical workday or everyday scenario, due to the limited time during the work break, where people go to eat and buy food is highly related to where they work or spend the most time during their day. 
+                            Thus, it is useful to see how many food amenities people can access from the top 3 working neighborhoods and residential neighborhoods.
+                            I found this part of insights when combined the survey result with Google Places API data.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    </div>
+            </div>
+        </div>
+
+
+
+    <div class="container">
+            <div class="row">
+             <div class="col-md-12">
+                <img class="img-responsive" src="assets/Working_3-01.png">
+                
+            </div>
+            </div>   
+        </div>
+        
+        
+        
+        <div class="container"> 
+            <div class="row">
+             <div class="col-md-12">
+                <img class="img-responsive" src="assets/Living_3-01.png">
+                
+            </div>
+            </div>
+        </div> 
+
+    
+        <div class="row">
+                <div class="col-md-12">
+                   <img class="img-responsive" src="assets/Living vs. Working Value.png">
+                   
+               </div>
+               </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+         <div class="col-md-8">
+            <div class="section-title-wrapper section-space--half">  
+                <p class="text-left short-desc">
+                        <strong>Insights from Combined the Survey Result with Google Places API Data</strong>
+                        <br>
+                        In the diagram above, the different food categories on the x-axis are classified based on the subcategories under the two types main categories of food amenities based on people's needs I defined before: places to eat in public spaces and places to buy unprepared foods.
+                        <br>
+                        The data I represented on the Y-axis is, first, use Google API query finds the total amount of the number of each food amenities category and then combines the three working and living neighbors defined in the questionnaire as geographic boundaries to filter the values. 
+                        Then I use this bar chart to visualization with the final data obtained.
+                </p>
+                <br>
+                <p class="text-left short-desc">
+                        As can be seen from the diagram below, <mark>working neighborhoods tended to have more food options compare to living neighborhoods.</mark> 
+                        When zooming into the neighborhood level, the downtown area has the most food amenities compared to the rest of the neighborhoods. <br>Downtown area can be ranked No.1 for 1. coffee neighbors 2. rich casual dining option neighbors 3. Convenient with convenience store neighborhood.  Back Bay area can be ranked number one for fancy dining neighborhood.
+                </p>
+
+            </div> 
+        </div>
+        <div class="col-md-2">
+        </div>
+    </div>
+</div>               
+
+
+<div class="row">
+        <div class="col-md-12">
+           <img class="img-responsive" src="assets/Neighborhoods Winner-01.png">
+           
+       </div>
+       </div>
+<!-- 
+<div class="container"> 
+<div class="myclass">
+    <div class="row">
+            <div class="sectionsmalltitle">
+                    <h2>Working Neighborhoods VS Living Neighborhoods: Food Amenities Distribution</h2>
+                </div>
+     </div>
+     <div class="row">
+     <p>Working Neighborhoods:<br>
+        Of 203 participants who live in the Greater Boston area, most are residences of Back Bay, Mission Hill, and Brighton. 
+        However, people still spend most of their daytime hours for work or school in Back Bay, Downtown and Fenway-Kenmore.
+     </p>
+     <br>
+     <p>On a typical workday or everyday scene, due to the limited time during the work break, where people go to eat and buy food is highly related to where they work or spend the most time during their day. 
+         Thus,to see how many food amentioes .. environment is important.</p>
+    </div>
+</div>
+</div> -->
+
+
+
+    <!--section:Density -->
+<a name="picture"></a>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+            <div class="section-title-wrapper section-space--half">  
+                    <h2 class="section-title">Food Amenties Density Maps by <mark> Categories</mark> </h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container"> 
+    <div class="row">
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/Density_convenience-01.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/Supermarkets-01.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/meal delievery vs takeout-01.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        
+    
+    </div>
+    </div>
+</div>
+
+<!-- survey -->
+<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="section-title-wrapper text-center section-space--half">  
+                            <h2 class="section-title">Building Personas Through Quantitative Data</h2>
+                            <h2>The study use three research methods</h2>
+            </div>
+            </div>
+    
+        </div>
+</div>
+
+
+<!--====================  feature logo area ====================-->
+<div class="feature-logo-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--=======  feature logo wrapper  =======-->
+                    <div class="feature-logo-wrapper section-space--inner-bottom">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!--=======  single feature logo  =======-->
+                                <div class="single-feature-logo">
+                                    <div class="single-feature-logo__image">
+                                        <img src="assets/icons/surveynew1-01.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="single-feature-logo__content">
+                                        <h4 class="title text-center">Quantitative Research-Online Questionnaire</h4>
+                                        <p class="small-desc">Online questionnaire results that seek to understand how people actually engage with food environments</p>
+                                    </div>
+                                </div>
+                                <!--=======  End of single feature logo  =======-->
+                            </div>
+                            <div class="col-md-4">
+                                <!--=======  single feature logo  =======-->
+                                <div class="single-feature-logo">
+                                    <div class="single-feature-logo__image">
+                                        <img src="assets/icons/geospatial1-01.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="single-feature-logo__content">
+                                        <h4 class="title text-center">Geospatial Data</h4>
+                                        <p class="small-desc">Provides food amenities’ mixed geo-location pattern as a base research foundation.</p>
+                                    </div>
+                                </div>
+                                <!--=======  End of single feature logo  =======-->
+                            </div>
+                            <div class="col-md-4">
+                                <!--=======  single feature logo  =======-->
+                                <div class="single-feature-logo">
+                                    <div class="single-feature-logo__image">
+                                        <img src="assets/icons/observation1-01.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="single-feature-logo__content">
+                                        <h4 class="title text-center">Observational Research</h4>
+                                        <p class="small-desc">Understanding physical phenomena in real world experience and further grounding the research content.</p>
+                                    </div>
+                                </div>
+                                <!--=======  End of single feature logo  =======-->
+ <!--=======  End of single feature logo  =======-->
+</div>
+</div>
+</div>
+<!--=======  End of feature logo wrapper  =======-->
+</div>
+</div>
+</div>
+</div>
+<!--====================  End of feature logo area  ====================-->
+
+    
+
+
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                            <div class="col-md-8">
+                        <div class="section-title-wrapper section-space--half">  
+                                <h2 class="section-title">Gathering Data From Online Surveys</h2>
+                                
+                                <p class="text-left short-desc">
+                                I posted questions in Boston oriented Facebook groups and Amazon Mechanical Turk and got 208 responses from participants living in Greater Boston.               
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            </div>
+                    </div>
+                 
+                <div class="row">
+                            <div class="col-lg-12">      
+                            <img src="assets/208.png">
+                        </div>
+                </div>
+
+                <div class="row">
+                        <div class="col-md-2">
+                        </div>
+                                <div class="col-md-8">
+                            <div class="section-title-wrapper section-space--half">  
+                                    <p class="text-left short-desc">
+                                            
+                                When asked, "What are the top 3 food amenities choices for you?" I found that participants replied that: <br>
+                                1. Whether you are single, in a relationship or married, <mark>supermarkets along with fast food restaurants and casual sit-down restaurants </mark>are always the top three favorite food amenities choices. 
+                                <br>
+                                2. <mark>Married people</mark> tend to go more frequently to <mark>dine dining restaurants</mark>, versus people single and in a relationship, with people in a relationship going less often, and single people going least often.
+                                <br>
+                                3. <mark>Married people</mark> also tend to go more frequently to <mark>Bars</mark>, versus people single and in a relationship, with people in a relationship going less often, and single people going least often.
+                                <br>
+
+                                4. The market for <mark>meal kit</mark> is not as large as all the advertising for it we receive from social media. 
+                                <br>
+                                5. Married people tend to eat more healthy, and less frequently go to fast food restaurants.  
+
+
+                                    </p>
+                                </div>
+                                </div>
+                                <div class="col-md-2">
+                                    </div>
+                                </div>
+
+          
+    <div class="row">
+            <div class="col-lg-12">
+               
+            <img src="assets/3platforms-01.png">
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+    
+<!--====================  blog post slider area ====================-->
+<div class="blog-post-slider-area">
+<div class="container">
+    <div class="row">
+            <div class="col-lg-12">
+                <!--=======  tab slider wrapper  =======-->
+
+                <div class="tab-slider-wrapper">
+                    <!--=======  tab product navigation  =======-->
+
+                    <div class="tab-product-navigation">
+                        <div class="nav nav-tabs justify-content-center" id="nav-tab2" role="tablist">
+                            <a class="nav-item nav-link active" id="product-tab-1" data-toggle="tab" href="#product-series-1" role="tab" aria-selected="true">Single</a>
+                            <a class="nav-item nav-link" id="product-tab-2" data-toggle="tab" href="#product-series-2" role="tab" aria-selected="false">In relationship</a>
+                            <a class="nav-item nav-link" id="product-tab-3" data-toggle="tab" href="#product-series-3" role="tab" aria-selected="false">Married</a>
+                        </div>
+                    </div>
+
+
+<!-- SINGLE -->
+   <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                    <img src="assets/icons/single-01.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-10">
+                        <h2>People who are single from the survey said...</h2>
+                 </div>
+         </div>
+
+
+         <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-lg-5">
+                        
+                        <p>When they choose a Casual Dining Experience, the top four most important factors are <br>
+                            <span style="color:#414141; font-weight: bold;">
+                                    "Taste 86 percent of the responses, Price 68%, Atmosphere 42% and Health 24%."
+                                    </span></p>
+                </div>
+
+                <div class="col-lg-5">
+                        <p>When they choose a Formal Dining Experience, the top four most important factors are  <br>
+                            <span style="color:#414141; font-weight: bold;">
+                                    "Taste 78%, Atmosphere 69%, Price 40% and Social 31%."
+                                    </span></p>
+                </div>
+                
+            </div>
+        </div>      
+
+
+
+
+
+
+        <div class="row">
+            <div class="col-lg-2">
+            </div>
+            <div class="col-lg-10">
+                    <h2>The top three locations/platforms that they get most of their food from are 
+                    <br>
+                    Supermarket 88% Casual Sit Down Restaurant 64% Fast food restaurant 61% </h2>
+                    <img src="assets/equation_single.png" class="img-small" alt="">
+
+                 </div>
+        </div>
+
+
+    
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+             <div class="col-md-8">
+                <div class="section-title-wrapper section-space--half">  
+                        <p class="text-left short-desc">
+                                <strong>Where Single People Get Their Food From the most?</strong>
+                    </p>
+                </div>
+            </div> 
+            <div class="col-md-2">
+            </div>                   
+        </div>                     
+                                
+                                
+
+
+       
+
+        <div class="myclass">
+                <div class="row">
+                    <div class="col-md-12">
+                <img class="img-responsive" src="assets/single_0401-01.png">
+                
+                    </div>
+                </div>
+            </div>      
+    </div>
+<!-- SINGLE -->
+
+
+
+<!-- In relationship -->
+<div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                    <img src="assets/In relationship.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-10">
+                        <h2>People also In a relationship from the survey said...</h2>
+                        <br>
+                        <p>When you choosing a Casual dining experience,the top four most important factors are <br>
+                            <span style="color:#414141; font-weight: bold;"> "Taste 86%, Price 68%, Atmosphere 42% and Health 24%"!</span></p>
+                        <br>
+                        <p>When you choosing a Formal dining experience,the top four most important factors are <br>
+                            <span style="color:#414141; font-weight: bold;"> "Taste 78%, Atmosphere 69%, Price 40% and Social 31%"!</span></p>
+                    
+                    </div>
+            </div>
+
+        <div class="row">
+            <div class="col-lg-2">
+            </div>
+            <div class="col-lg-10">
+                    <h2>The top three locations/platforms seem like you get most of your food from are
+                    <br>
+                    Casual Sit Down Restaurant 82% Supermarket 81%  Fast food restaurant 47% </h2>
+                    <img src="assets/equation_single.png" class="img-small" alt="">
+
+                 </div>
+        </div>
+
+        <div class="myclass">
+                <div class="row">
+                    <div class="col-md-12">
+                <img class="img-responsive" src="assets/single_foodworld-01.png">
+                
+                    </div>
+                </div>
+            </div>      
+    </div>
+<!-- In relationship -->
+   
+    <!-- <script src="js/slideshow.js"></script> -->
+    <!-- <script src="js/scroll.js"></script> -->
+    <script src="js/mask.js"></script>
+    <!-- Leaflet's JS-->
+ <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+ integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+ crossorigin=""></script>
+
+ <script src="js/main.js"></script>
+
+  <!-- <script src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDpxHTaW6FEXIreK-E3oN4fZrBBOTg2wQw&callback=42.348863766734205,-71.08094020186194&zoom=13&format=png&maptype=roadmap&style=element:geometry%7Ccolor:0xf5f5f5&style=element:labels.icon%7Cvisibility:off&style=element:labels.text.fill%7Ccolor:0x616161&style=element:labels.text.stroke%7Ccolor:0xf5f5f5&style=feature:administrative.land_parcel%7Cvisibility:off&style=feature:administrative.land_parcel%7Celement:labels.text.fill%7Ccolor:0xbdbdbd&style=feature:administrative.neighborhood%7Cvisibility:off&style=feature:poi%7Celement:geometry%7Ccolor:0xeeeeee&style=feature:poi%7Celement:labels.text%7Cvisibility:off&style=feature:poi%7Celement:labels.text.fill%7Ccolor:0x757575&style=feature:poi.business%7Cvisibility:off&style=feature:poi.park%7Celement:geometry%7Ccolor:0xe5e5e5&style=feature:poi.park%7Celement:labels.text.fill%7Ccolor:0x9e9e9e&style=feature:road%7Celement:geometry%7Ccolor:0xffffff&style=feature:road%7Celement:labels%7Cvisibility:off&style=feature:road%7Celement:labels.icon%7Cvisibility:off&style=feature:road.arterial%7Celement:labels%7Cvisibility:off&style=feature:road.arterial%7Celement:labels.text.fill%7Ccolor:0x757575&style=feature:road.highway%7Celement:geometry%7Ccolor:0xdadada&style=feature:road.highway%7Celement:labels%7Cvisibility:off&style=feature:road.highway%7Celement:labels.text.fill%7Ccolor:0x616161&style=feature:road.local%7Cvisibility:off&style=feature:road.local%7Celement:labels.text.fill%7Ccolor:0x9e9e9e&style=feature:transit%7Cvisibility:off&style=feature:transit.line%7Celement:geometry%7Ccolor:0xe5e5e5&style=feature:transit.station%7Celement:geometry%7Ccolor:0xeeeeee&style=feature:water%7Celement:geometry%7Ccolor:0xc9c9c9&style=feature:water%7Celement:labels.text%7Cvisibility:off&style=feature:water%7Celement:labels.text.fill%7Ccolor:0x9e9e9e&size=480x360&callback=initMap"
+    async defer></script>  -->
+
+   <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpxHTaW6FEXIreK-E3oN4fZrBBOTg2wQw&callback=initMap">
+    </script> 
+
+</body>
+
 </html>
