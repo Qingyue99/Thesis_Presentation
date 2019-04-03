@@ -28,14 +28,14 @@ var myStyle = {
   // create popup contents
   var customPopup1 = "Back Bay<br/><img src='http://joshuafrazier.info/images/maptime.gif' alt='maptime logo gif' width='1200px'/>";
   
-  var customPopup2 = "Allston<br/><img src='http://joshuafrazier.info/images/maptime.gif' alt='maptime logo gif' width='1200px'/>";
+  var customPopup2 = "Allston<br/><img src='assets/o.jpg' alt='f'width='8000px'/>";
   var customPopup3 = "Boston College<br/><img src='http://joshuafrazier.info/images/maptime.gif' alt='maptime logo gif' width='1200px'/>";
   var customPopup4 = "Boston University<br/><img src='http://joshuafrazier.info/images/maptime.gif' alt='maptime logo gif' width='1200px'/>";
-  var customPopup5 = "Northeastern Univerisy<br/><img src='http://joshuafrazier.info/images/maptime.gif' alt='maptime logo gif' width='1200px'/>";
+  var customPopup5 = "Northeastern University<br/><img src='http://joshuafrazier.info/images/maptime.gif' alt='maptime logo gif' width='1200px'/>";
   // specify popup options 
   var customOptions =
       {
-      'maxWidth': '4000',
+      'maxWidth': '10000',
       'className' : 'custom'
       }
   
@@ -50,14 +50,6 @@ var myStyle = {
 
 
 
-// var PlaygroundIcon = L.icon({
-//   iconUrl: "images/playground_new.png",
-//   iconSize:     [25, 25], // size of the icon
-//   // shadowSize:   [50, 64], // size of the shadow
-//   iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-//   shadowAnchor: [4, 62],  // the same for the shadow
-//   popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
-// });
 
  
  
